@@ -1,0 +1,69 @@
+Core Java:
+
+- WORA: Write Once Run Anywhere
+- Platform Independent
+- What is Platform? : 
+ Platform - Hardware + Operating System
+
+JDK: Java Development Kit
+
+- Java Working/ Why Java?
+
+Source Code(.C) --> Compile(Translator) --> Machine Language(.obj) (Binary Language/Object Code)
+English	
+
+- C is not platform independent	
+
+Source Code(.java) -- > Compile --> Byte Code(Intermediate Code)(.class) --> JRE(Interpreter) -->
+Machine code
+
+JRE: Java Runtime Enviornment
+
+JRE read vyte code and convert byte code into machine code
+
+- JRE must be seperately installed in all machines(windows, linux, mac).
+
+1. Java Code Compile
+	- javac example(File Name).java
+2. Java Code Run/Execute
+	- java example(Class Name)
+
+Java Editor
+1. Visual Studio Code
+-javac
+-java
+
+2. Java IDE, Eclipse
+
+- Basics of Java
+- OOPS:
+	- Class and Object
+	- Encapsulation and Data Hiding / Abstraction
+	- Inheritance
+	- Polymorphism
+	- final, finalize, interface, static 
+
+- String Handling
+- Exception Handling
+- Memory Management
+- Final Minor Project - OOPs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
