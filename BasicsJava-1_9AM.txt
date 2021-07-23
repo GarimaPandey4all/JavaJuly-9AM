@@ -1,0 +1,71 @@
+Java History:
+
+1. Invented by James Gosling in 1991
+2. Developed by Sun Microsystems
+3. The old name of java is "Oak"
+4. In 1995, First released publicly as "Java 1.0"
+5. Sun Microsystems sold java to Oracle corporation in 2009
+
+
+2 types of programming:
+
+1. Procedural Programming: Functions - Divide a problem into functions
+	e.g. C programming Language
+2. OOPS (Object Oriented Programming Language): Wrap all the variables and functions into a single unit
+
+Let's take an example:
+
+class A {
+int a, b;
+void add(){
+a + b;
+}
+void sub(){
+a - b;
+}
+void div(){
+a / b;
+}
+void mul(){
+a * b;
+}
+}
+class B {
+void sin(){
+double a;
+}
+}
+
+
+Create a first program in java:
+
+- Every java program start with class
+- Class name should start with capital letter
+- Class name should be same as file name
+- Class name starts with either alphabet or specialsymbol(_, $)
+
+Compile Code in Java 
+- javac filename.java
+
+Execute/Run the java code
+- java classname/byte code
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,6 +1,5 @@
-class HelloWorld {
-    public static void main(String args[]) // main- entry level method
-    {
+class Hello {
+    public static void main(String[] args) {
         System.out.println("Hello World");
     }
 }
