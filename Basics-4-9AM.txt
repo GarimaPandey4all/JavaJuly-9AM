@@ -1,0 +1,31 @@
+Data Types: 2 types of data types
+
+1. Primitive Data Types or Value Data Types
+
+byte - 1 byte = 8 bits
+1 bit +-
+7 bits number range
+Bit 0, 1 Base 2
+
+-2 ^ 7 to 2 ^ 7 - 1
+-128 to 127
+
+Integral 
+byte - 1 byte = 8 bits
+short - 2 bytes = 16 bits
+int - 4 bytes = 32 bits
+long - 8 bytes = 64 bits
+
+Decimal/Floating
+float - 4 bytes = 32 bits
+double - 8 bytes = 64 bits
+
+char - 2 bytes
+boolean - size depending upon O/S, 1 byte/2byte/4byte
+
+2. Reference Data Types or Address Data Types
+
+String 
+
+
+
