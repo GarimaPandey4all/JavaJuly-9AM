@@ -1,0 +1,44 @@
+*
+**
+***
+****
+*****
+
+Two types of programming:
+
+1. Procedural Programming : Function : C lang
+2. Object Oriented Programming Language: C++, Java, C# etc
+
+Calculator in C
+class A
+{
+int a, b;
+add()
+{}
+sub()
+{}
+div()
+{}
+mul()
+{}
+}
+class B
+{
+sin()
+{
+double a;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
