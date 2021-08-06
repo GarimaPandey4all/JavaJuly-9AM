@@ -1,0 +1,73 @@
+Two types of programming:
+
+1. Procedural Programming : Function : C lang
+2. Object Oriented Programming Language: C++, Java, C# etc
+
+Calculator in C
+class A
+{
+int a, b;
+add()
+{}
+sub()
+{}
+div()
+{}
+mul()
+{}
+}
+class B
+{
+sin()
+{
+double a;
+}
+}
+
+Is java has global variable?
+No, Because in java every program start with class, and class doesn't have 
+global variable.
+
+C- We think only for functions
+We never think of data, so either data/variable are define local or global.
+And Global can be conflict with others.
+
+C++: OOPs - provide a feature of data binding using classes.
+So your class have your variable and your methods that never conflict 
+with other developers.
+
+Now in OOPs we can use same variable names, same method name in different classes.
+
+What is OOPs?
+
+Divide a Big problem into classes.
+OOPs Features:
+
+1. Class and Object
+
+- Class is collection of similar objects. - Logical Entity
+- Object - real world entity - Physical Entity
+
+Class : Human
+
+Object: Ram, Rahul, Garima etc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
