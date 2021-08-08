@@ -9,6 +9,34 @@ public class Student {
 	private String phone;
 	private String course;
 	private double fees;
+	private String collegeName;
+	
+	//Default Constructor
+	Student()
+	{
+		collegeName = "SRCC";
+	}
+	
+	//getter
+	public String getPhone() {
+		return phone;
+	}
+
+	//setter
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+
+	//Parameterized Constructor
+	Student(int rollno, String name, String phone, String course, double fees)
+	{
+		this(); // call to the default constructor , Constructor chaining
+		this.rollno = rollno;
+		this.name = name;
+		this.phone = phone;
+		this.course = course;
+		this.fees = fees;
+	}
 	
 	//public member methods
 	
@@ -30,20 +58,30 @@ public class Student {
 		System.out.println("Phone is "+phone);
 		System.out.println("Courses is "+course);
 		System.out.println("Fees is "+fees);
+		System.out.println("College Name is "+collegeName);
 	}
 	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Student ram = new Student();
-		Student shyam = new Student();
+		Student ram = new Student(1001, "Ram Kumar", "83728764454", "MCA", 6487.78);
 		
-		ram.takeInput(1001, "Ram Kumar", "83728764454", "MCA", 6487.78);
+		//Student shyam = new Student();
+		
+		//ram.takeInput(1001, "Ram Kumar", "83728764454", "MCA", 6487.78);
 		ram.print();
 		
+		ram.setPhone("83724698743");
+		
+		System.out.println("***********************************************************");
+		
+		ram.print();
+		
+		/*
 		shyam.takeInput(1002, "Shyam Sharma", "43917098798", "B.Teach", 32487.89);
 		shyam.print();
+		*/
 		
 		/*
 		System.out.println("Roll No is "+ram.rollno);
