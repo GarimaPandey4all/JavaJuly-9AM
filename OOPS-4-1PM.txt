@@ -1,0 +1,59 @@
+Class Relationship:
+
+- Communicate b/w two classes
+
+1. IS - A Inheritance
+
+BMW is a Car
+Lion is a animal
+FB is a app
+SavingAccount is a Account
+Homeloan is a loan
+PartTimeEmployee is a Employee
+
+2. HAS - A Inheritance
+
+BMW has a driver
+Customer has a order
+Customer has a Account
+
+1. In Development
+
+One class one file
+If your class is public so class name must be same as file name
+so in one file we can have n non public classes.
+If one file (X.java) has 3 classes e.g
+class X{} class Y{} class Z{}
+After compile it will create 3 byte codes
+X.class Y.class Z.class
+
+
+Java provide single inheritance in case of classes.
+Java also provide multiple inheritance in case of interfaces.
+
+Overriding:
+
+When parent feature is outdated so we override the parent feature in a child class.
+Override hide the parent feature.
+
+1. Must be inheritance
+2. Method Signature must be same
+void roi(), same child has same method as void roi()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
