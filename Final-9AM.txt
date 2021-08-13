@@ -1,0 +1,16 @@
+Final Keyword:
+
+- If a variable is declared with the final keyword, its value can't be changed once initialized.
+- A method, declared with the final keyword, can't be overridden or hidden by subclasses.
+- A class declared as final class, can't be subclassed.
+
+Finalize Method:
+
+- Finalize is used to perform clean up processing just before object is garbage collected.
+- So basically, Garbage collector calls finalize method on that class object which is eligible for garbage
+	collection.
+
+Upcasting And Downcasting:
+
+- It is a object type casting.
+- Parent to Child (Downcasting) and Child to Parent (Upcasting)
