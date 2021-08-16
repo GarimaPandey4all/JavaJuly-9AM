@@ -1,0 +1,3 @@
+- Abstract Methods are methods can only be declared, not defined.
+- Abstract class can have abstract methods
+- You can't create objects of abstract class
