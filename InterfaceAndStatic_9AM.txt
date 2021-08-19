@@ -1,0 +1,12 @@
+Interface:
+
+Like a class, an interface can have methods and variables, but the methods declared in an interface 
+are by default abstract(only method signature, no body)
+
+- It is used to acheive total abstraction
+- Since java does not support multiple inheritance in case of class, but by using interface it 
+can acheive multiple inheritance.
+- Interfaces are used to implement abstraction. 
+
+Static use in java
+
