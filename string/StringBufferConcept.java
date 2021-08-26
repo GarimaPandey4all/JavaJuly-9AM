@@ -4,8 +4,9 @@ public class StringBufferConcept {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
+		StringBuilder sb = new StringBuilder();
+		//StringBuffer sb = new StringBuffer();
 		
-		StringBuffer sb = new StringBuffer();
 		System.out.println(sb.capacity()+" "+sb.length());
 		
 		sb.append("Hello");
